@@ -3,8 +3,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.printf("%s",constructGreeting(new Name(), new Greeting(), new Compliment()) );
 
+        System.out.println(printGreeting());
+        
     }
 
     public static String constructGreeting(Name n, Greeting g, Compliment c){
@@ -12,5 +13,9 @@ public class App
 
     }
 
+    public static String printGreeting(){
+        return constructGreeting(new Name(), new Greeting(), new Compliment());
+
+    }
 
 }
