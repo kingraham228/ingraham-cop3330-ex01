@@ -1,13 +1,18 @@
 package oop.example;
-
-/**
- * Hello world!
- *
- */
-public class App 
+public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Name userName = new Name();
+        Greeting userGreeting = new Greeting();
+        Compliment userCompliment = new Compliment();
+
+        constructGreeting(userName, userGreeting, userCompliment);
+
+    }
+
+    public static void constructGreeting(Name n, Greeting g, Compliment c){
+        System.out.printf("%s%s%s",g.chooseGreeting(), n.getName(), c.chooseCompliment());
+
     }
 }

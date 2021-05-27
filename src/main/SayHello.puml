@@ -1,0 +1,18 @@
+@startuml
+class App{
+    + constructGreeting
+    + printGreeting
+}
+class Name{
+    + getName
+}
+class Greeting{
+    + chooseGreet
+}
+class Compliment{
+    + chooseCompliment
+}
+App o-- Name
+App o-- Greeting
+App o-- Compliment
+@enduml
