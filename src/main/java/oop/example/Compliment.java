@@ -10,7 +10,7 @@ public class Compliment {
         String compliment3 = ", what's up?";
         String compliment4 = ", good to see you.";
         String compliment5 = ", it has been a while.";
-        String compliment6 = ", hot enough for you?";
+        String compliment6 = ", hope you've been well";
 
         String [] arrCompliment = {compliment1, compliment2, compliment3, compliment4, compliment5, compliment6};
         Random randomCompliment = new Random();

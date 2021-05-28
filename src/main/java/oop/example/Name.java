@@ -7,9 +7,9 @@ public class Name {
     public String getName(){
 
         System.out.println("Enter your name: ");
-        Scanner input = new Scanner(System.in).useDelimiter("\\n");
+        Scanner input = new Scanner(System.in);
 
-        return input.next();
+        return input.nextLine();
 
 
 
