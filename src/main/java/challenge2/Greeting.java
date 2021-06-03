@@ -1,4 +1,4 @@
-package oop.example;
+package challenge2;
 
 import java.util.Random;
 
